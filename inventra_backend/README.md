@@ -296,6 +296,15 @@ Placeholders and comments are included in the codebase where ML features can be 
 - Environment variables for sensitive data
 - SQL injection prevention through SQLAlchemy ORM
 
+## Made by
+
+- Nanmathi Balachandran
+- Arya M Pandaram
+
+## Guided by
+
+- Dr. Mukundraj Patil
+
 ## License
 
 This project is part of the Inventra Inventory Management System.
