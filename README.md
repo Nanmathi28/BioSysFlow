@@ -1,42 +1,45 @@
-<<<<<<< HEAD
-💊 Inventra – AI-Powered Smart Pharmacy Inventory Management System
-=======
 # 💊 Inventra – AI-Powered Smart Pharmacy Inventory Management System
->>>>>>> 4d17238d4bf93ad332b486515aad277bbd5f4a78
 
-Inventra is a full-stack Smart Pharmacy Inventory Management System designed to help pharmacies efficiently manage medicines, inventory, suppliers, stock levels, expiry monitoring, and AI-powered demand forecasting.
+Inventra is a full-stack Smart Pharmacy Inventory Management System developed to help pharmacies efficiently manage medicines, inventory, suppliers, stock levels, expiry monitoring, and AI-powered demand forecasting.
 
-The application provides a modern React-based web interface, a FastAPI backend, PostgreSQL database, and machine learning capabilities for smarter inventory decisions.
-<<<<<<< HEAD
+The application combines a modern React frontend, FastAPI backend, PostgreSQL database, and Machine Learning models to provide intelligent inventory management and better decision-making.
 
 ---
 
-🚀 Live Demo
+# Acknowledgement
 
-Frontend
+This project was developed as part of the **IEEE Engineering in Medicine and Biology Society (IEEE EMBS) Internship Program**.
+
+We sincerely thank the IEEE EMBS Internship Program, our mentors, and coordinators for providing us with the opportunity to work on a real-world healthcare project. The internship helped us gain practical experience in software development, database management, machine learning, and collaborative project development.
+
+---
+
+# 🚀 Live Demo
+
+### Frontend
 
 https://inventra-nanmathi.vercel.app
 
-Backend API
+### Backend API
 
 https://inventra-api-n1ae.onrender.com
 
-API Documentation (Swagger)
+### Swagger Documentation
 
 https://inventra-api-n1ae.onrender.com/docs
 
 ---
 
-✨ Features
+# ✨ Features
 
-🔐 Authentication & User Management
+## 🔐 Authentication
 
-- User Registration & Login
+- User Registration
+- Secure Login
 - JWT Authentication
-- Secure Password Hashing
 - Role-Based Access Control
 
-Roles:
+### User Roles
 
 - Admin
 - Pharmacist
@@ -44,41 +47,39 @@ Roles:
 
 ---
 
-💊 Medicine Management
+## 💊 Medicine Management
 
 - Add Medicines
 - Update Medicines
 - Delete Medicines
-- Medicine Categories
-- Manufacturer Details
-- Medicine Form
+- Search Medicines
 - Batch Tracking
-- Price Management
-- Expiry Date Monitoring
+- Manufacturer Details
+- Medicine Categories
+- Expiry Monitoring
 
 ---
 
-📦 Inventory Management
+## 📦 Inventory Management
 
 - Real-Time Inventory Tracking
 - Current Stock Monitoring
 - Safety Stock Management
 - Reorder Level Management
-- Stock Status Monitoring
+- Color-Coded Stock Status
 - Batch-wise Inventory
 
 ---
 
-🚚 Supplier Management
+## 🚚 Supplier Management
 
 - Supplier Database
 - Contact Information
-- Supplier Reliability Score
-- Supplier Details Management
+- Supplier Reliability
 
 ---
 
-📢 Alerts & Notifications
+## 📢 Alerts
 
 - Low Stock Alerts
 - Critical Stock Alerts
@@ -87,36 +88,34 @@ Roles:
 
 ---
 
-🛒 Order Management
+## 🛒 Order Management
 
 - Customer Orders
 - Order Tracking
-- Order Status Management
 - Order History
 
 ---
 
-📊 Dashboard & Analytics
+## 📊 Dashboard & Analytics
 
-- Total Medicines
 - Inventory Overview
-- Supplier Statistics
 - Stock Distribution
-- Expiry Monitoring Summary
+- Supplier Statistics
+- Expiry Summary
+- Interactive Charts
 
 ---
 
-🤖 AI & Machine Learning
+## 🤖 AI & Machine Learning
 
 - Demand Forecasting
 - Future Stock Prediction
-- Smart Inventory Recommendations
-- Forecast Dashboard
+- Smart Restocking
 - Historical Demand Analysis
 
 ---
 
-📄 Prescription Management
+## 📄 Prescription Management
 
 - Upload Prescriptions
 - Prescription Records
@@ -124,19 +123,16 @@ Roles:
 
 ---
 
-🛠️ Tech Stack
+# 🛠️ Technology Stack
 
-Frontend
+### Frontend
 
 - React.js
 - Vite
 - Tailwind CSS
 - React Router
-- JavaScript
 
----
-
-Backend
+### Backend
 
 - FastAPI
 - SQLAlchemy
@@ -145,200 +141,41 @@ Backend
 - JWT Authentication
 - Pydantic
 
----
-
-Machine Learning
+### Machine Learning
 
 - Scikit-learn
 - Pandas
 - NumPy
 
----
+### Deployment
 
-Deployment
-
-- Frontend: Vercel
-- Backend: Render
-- Database: PostgreSQL
-
----
-
-📁 Project Structure
-
-=======
-
----
-
-# 🚀 Live Demo
-
-### Frontend
-
-**https://inventra-nanmathi.vercel.app**
-
-### Backend API
-
-**https://inventra-api-n1ae.onrender.com**
-
-### API Documentation (Swagger)
-
-**https://inventra-api-n1ae.onrender.com/docs**
-
----
-
-# ✨ Features
-
-## 🔐 Authentication & User Management
-
-* User Registration & Login
-* JWT Authentication
-* Secure Password Hashing
-* Role-Based Access Control
-
-Roles:
-
-* Admin
-* Pharmacist
-* Customer
-
----
-
-## 💊 Medicine Management
-
-* Add Medicines
-* Update Medicines
-* Delete Medicines
-* Medicine Categories
-* Manufacturer Details
-* Medicine Form
-* Batch Tracking
-* Price Management
-* Expiry Date Monitoring
-
----
-
-## 📦 Inventory Management
-
-* Real-Time Inventory Tracking
-* Current Stock Monitoring
-* Safety Stock Management
-* Reorder Level Management
-* Stock Status Monitoring
-* Batch-wise Inventory
-
----
-
-## 🚚 Supplier Management
-
-* Supplier Database
-* Contact Information
-* Supplier Reliability Score
-* Supplier Details Management
-
----
-
-## 📢 Alerts & Notifications
-
-* Low Stock Alerts
-* Critical Stock Alerts
-* Expiry Alerts
-* Inventory Notifications
-
----
-
-## 🛒 Order Management
-
-* Customer Orders
-* Order Tracking
-* Order Status Management
-* Order History
-
----
-
-## 📊 Dashboard & Analytics
-
-* Total Medicines
-* Inventory Overview
-* Supplier Statistics
-* Stock Distribution
-* Expiry Monitoring Summary
-
----
-
-## 🤖 AI & Machine Learning
-
-* Demand Forecasting
-* Future Stock Prediction
-* Smart Inventory Recommendations
-* Forecast Dashboard
-* Historical Demand Analysis
-
----
-
-## 📄 Prescription Management
-
-* Upload Prescriptions
-* Prescription Records
-* Medicine Request Tracking
-
----
-
-# 🛠️ Tech Stack
-
-## Frontend
-
-* React.js
-* Vite
-* Tailwind CSS
-* React Router
-* JavaScript
-
----
-
-## Backend
-
-* FastAPI
-* SQLAlchemy
-* PostgreSQL
-* Alembic
-* JWT Authentication
-* Pydantic
-
----
-
-## Machine Learning
-
-* Scikit-learn
-* Pandas
-* NumPy
-
----
-
-## Deployment
-
-* Frontend: Vercel
-* Backend: Render
-* Database: PostgreSQL
+- Frontend – Vercel
+- Backend – Render
+- Database – PostgreSQL
 
 ---
 
 # 📁 Project Structure
 
 ```text
->>>>>>> 4d17238d4bf93ad332b486515aad277bbd5f4a78
 inventra/
 │
 ├── inventra_frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
 │
 ├── inventra_backend/
 │   ├── alembic/
 │   ├── app/
+│   │   ├── api/
+│   │   ├── auth/
+│   │   ├── config/
+│   │   ├── database/
+│   │   ├── ml/
+│   │   ├── models/
+│   │   ├── schemas/
+│   │   ├── services/
+│   │   └── utils/
 │   ├── data/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
+│   ├── tests/
 │   ├── requirements.txt
 │   └── main.py
 │
@@ -347,19 +184,6 @@ inventra/
 
 ---
 
-<<<<<<< HEAD
-⚙️ Installation
-
-Clone Repository
-
-git clone https://github.com/Nanmathi28/inventra.git
-
-cd inventra
-
----
-
-Backend Setup
-=======
 # ⚙️ Installation
 
 ## Clone Repository
@@ -370,11 +194,9 @@ git clone https://github.com/Nanmathi28/inventra.git
 cd inventra
 ```
 
----
+## Backend Setup
 
-# Backend Setup
->>>>>>> 4d17238d4bf93ad332b486515aad277bbd5f4a78
-
+```bash
 cd inventra_backend
 
 python -m venv venv
@@ -382,29 +204,23 @@ python -m venv venv
 # Windows
 venv\Scripts\activate
 
-# Linux / macOS
+# Linux/macOS
 source venv/bin/activate
 
 pip install -r requirements.txt
 
 alembic upgrade head
-<<<<<<< HEAD
-
-uvicorn main:app --reload
-
-=======
 
 uvicorn main:app --reload
 ```
 
->>>>>>> 4d17238d4bf93ad332b486515aad277bbd5f4a78
-Backend runs at:
+Backend:
 
 ```
 http://127.0.0.1:8000
 ```
 
-Swagger API Documentation:
+Swagger:
 
 ```
 http://127.0.0.1:8000/docs
@@ -412,66 +228,27 @@ http://127.0.0.1:8000/docs
 
 ---
 
-<<<<<<< HEAD
-Frontend Setup
-=======
-# Frontend Setup
->>>>>>> 4d17238d4bf93ad332b486515aad277bbd5f4a78
+## Frontend Setup
 
+```bash
 cd inventra_frontend
 
 npm install
 
 npm run dev
+```
 
-Frontend runs at:
+Frontend:
 
 ```
 http://localhost:5173
-<<<<<<< HEAD
-
----
-
-Database Configuration
-
-Create a ".env" file inside inventra_backend
-
-DATABASE_URL=postgresql://username:password@localhost:5432/inventra_db
-
-SECRET_KEY=your_secret_key
-
-ALGORITHM=HS256
-
-ACCESS_TOKEN_EXPIRE_MINUTES=60
-
----
-
-🔮 Future Enhancements
-
-- Barcode Scanner Integration
-- OCR Prescription Recognition
-- Email Notifications
-- SMS Alerts
-- Mobile Application
-- Supplier Performance Analytics
-- Advanced AI Forecasting
-- Sales Analytics Dashboard
-- Multi-Branch Pharmacy Support
-
----
-
-👥 Team
-
-- Nanmathi Balachandran
-- Arya Pandaram
-=======
 ```
 
 ---
 
-# Database Configuration
+## Database Configuration
 
-Create a `.env` file inside **inventra_backend**
+Create a `.env` file inside `inventra_backend`.
 
 ```env
 DATABASE_URL=postgresql://username:password@localhost:5432/inventra_db
@@ -487,46 +264,31 @@ ACCESS_TOKEN_EXPIRE_MINUTES=60
 
 # 🔮 Future Enhancements
 
-* Barcode Scanner Integration
-* OCR Prescription Recognition
-* Email Notifications
-* SMS Alerts
-* Mobile Application
-* Supplier Performance Analytics
-* Advanced AI Forecasting
-* Sales Analytics Dashboard
-* Multi-Branch Pharmacy Support
+- Barcode Scanner Integration
+- OCR Prescription Recognition
+- Email Notifications
+- SMS Alerts
+- Mobile Application
+- Multi-Branch Pharmacy Support
+- Supplier Performance Analytics
+- Advanced AI Forecasting
+- Sales Analytics Dashboard
 
 ---
 
-# 👥 Team
+# 👥 Authors
 
-* **Nanmathi Balachandran**
-* **Arya Pandaram**
+- Nanmathi Balachandran
+- Arya Pandaram
 
 ---
 
 # 📄 License
 
-This project was developed for educational, academic, and learning purposes.
+This project was developed for educational and academic purposes as part of the **IEEE EMBS Internship Program**.
 
 ---
 
 # ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub!
-
-
->>>>>>> 4d17238d4bf93ad332b486515aad277bbd5f4a78
-
----
-
-📄 License
-
-This project was developed for educational, academic, and learning purposes.
-
----
-
-⭐ Support
-
-If you found this project useful, consider giving it a ⭐ on GitHub!
+If you found this project useful, consider giving it a ⭐ on GitHub.
