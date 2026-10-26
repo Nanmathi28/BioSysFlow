@@ -1,6 +1,6 @@
-# 💊 Inventra – AI-Powered Smart Pharmacy Inventory Management System
+# 💊 BioSysFlow – AI-Powered Smart Pharmacy Inventory Management System
 
-Inventra is a full-stack Smart Pharmacy Inventory Management System developed to help pharmacies efficiently manage medicines, inventory, suppliers, stock levels, expiry monitoring, and AI-powered demand forecasting.
+BioSysFlow is a full-stack Smart Pharmacy Inventory Management System developed to help pharmacies efficiently manage medicines, inventory, suppliers, stock levels, expiry monitoring, and AI-powered demand forecasting.
 
 The application combines a modern React frontend, FastAPI backend, PostgreSQL database, and Machine Learning models to provide intelligent inventory management and better decision-making.
 
@@ -189,7 +189,7 @@ inventra/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/Nanmathi28/inventra.git
+git clone https://github.com/Nanmathi28/BioSysFlow.git
 
 cd inventra
 ```
